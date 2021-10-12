@@ -1,0 +1,334 @@
+/* copied from https://cssicon.space/#/ */
+
+/* 雨滴图标，简单易用，可用作logo */
+.raindrop-solid.icon {
+  /* display: inline-block;
+  position: absolute;
+  color: #000;
+  margin-left: 5px;
+  margin-top: 5px; */
+  width: 1rem;
+  height: 1rem;
+  background-color: currentColor;
+  border: solid 1px currentColor;
+  border-radius: 6px 6px 6px 0;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+/* 3横杠，可用作汉堡菜单 */
+.menu.icon {
+  /* color: #000; */
+  position: absolute;
+  margin-left: 2px;
+  margin-top: 10px;
+  width: 17px;
+  height: 1px;
+  background-color: currentColor;
+}
+
+.menu.icon:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 17px;
+  height: 1px;
+  background-color: currentColor;
+}
+
+.menu.icon:after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 17px;
+  height: 1px;
+  background-color: currentColor;
+}
+
+/* 3点横向，常用作更多 */
+.more-solid.icon {
+  color: #000;
+  /* position: absolute; */
+  margin-left: 9px;
+  margin-top: 9px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  border: solid 1px currentColor;
+  background-color: currentColor;
+}
+
+.more-solid.icon:before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -8px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  border: solid 1px currentColor;
+  background-color: currentColor;
+}
+
+.more-solid.icon:after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 6px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  border: solid 1px currentColor;
+  background-color: currentColor;
+}
+
+/* 3点纵向，常用作更多 */
+.more-vertical-solid.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 9px;
+  margin-top: 9px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  border: solid 1px currentColor;
+  background-color: currentColor;
+}
+
+.more-vertical-solid.icon:before {
+  content: '';
+  position: absolute;
+  left: -1px;
+  top: -8px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  border: solid 1px currentColor;
+  background-color: currentColor;
+}
+
+.more-vertical-solid.icon:after {
+  content: '';
+  position: absolute;
+  left: -1px;
+  top: 6px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  border: solid 1px currentColor;
+  background-color: currentColor;
+}
+
+/* edit pencil，编辑图标 */
+.edit-solid.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 4px;
+  margin-top: 7px;
+  width: 14px;
+  height: 2px;
+  border-radius: 1px;
+  border: solid 1px currentColor;
+  background-color: currentColor;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.edit-solid.icon:before {
+  content: '';
+  position: absolute;
+  left: -12px;
+  top: -1px;
+  width: 0px;
+  height: 0px;
+  border-left: solid 5px transparent;
+  border-right: solid 5px currentColor;
+  border-top: solid 2px transparent;
+  border-bottom: solid 2px transparent;
+}
+
+/* 加号 */
+.plus.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 3px;
+  margin-top: 10px;
+}
+
+.plus.icon:before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 1px;
+  background-color: currentColor;
+}
+
+.plus.icon:after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 1px;
+  background-color: currentColor;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* 减号 */
+.minus.icon {
+  color: #000;
+  position: absolute;
+  /* margin-left: 3px;
+  margin-top: 10px; */
+  width: 15px;
+  height: 1px;
+  background-color: currentColor;
+}
+
+/* 叉号 */
+.close.icon {
+  color: #000;
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0;
+  width: 21px;
+  height: 21px;
+}
+
+.close.icon:before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  width: 21px;
+  height: 1px;
+  background-color: currentColor;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.close.icon:after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  width: 21px;
+  height: 1px;
+  background-color: currentColor;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* 打勾 */
+.check.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 3px;
+  margin-top: 4px;
+  width: 14px;
+  height: 8px;
+  border-bottom: solid 1px currentColor;
+  border-left: solid 1px currentColor;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* 向上箭头完整 */
+.arrow-up.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 3px;
+  width: 1px;
+  height: 16px;
+  background-color: currentColor;
+}
+
+.arrow-up.icon:before {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: 1px;
+  width: 10px;
+  height: 10px;
+  border-top: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* 向下箭头完整 */
+.arrow-down.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 2px;
+  width: 1px;
+  height: 16px;
+  background-color: currentColor;
+}
+
+.arrow-down.icon:before {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: 3px;
+  width: 10px;
+  height: 10px;
+  border-top: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+/* 向上 */
+.arrow-dir-up.icon {
+  /* content: ''; */
+  position: absolute;
+  left: -5px;
+  top: 1px;
+  width: 10px;
+  height: 10px;
+  border-top: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* 向下 */
+.arrow-dir-down.icon:before {
+  /* content: ''; */
+  position: absolute;
+  left: -5px;
+  top: 3px;
+  width: 10px;
+  height: 10px;
+  border-top: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+/* 向左 */
+.arrow-dir-left.icon {
+  /* content: ''; */
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-left: solid 1px currentColor;
+  border-top: solid 1px currentColor;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* 向右 */
+.arrow-dir-right.icon {
+  /* content: ''; */
+  position: absolute;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  border-bottom: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
